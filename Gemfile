@@ -12,7 +12,7 @@ gem 'rails', '~> 5.0.1'
 gem 'sqlite3', '~> 1.3.6'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
-#Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff 
+#Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff
 gem 'rails-i18n', '~> 5.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
@@ -32,6 +32,8 @@ group :development, :test do
   gem 'byebug', platform: :mri
   #This gem is a port of Perl's Data::Faker library that generates fake data.
   gem 'faker'
+  #Rails >= 3 pry initializer
+  gem 'pry-rails'
 end
 
 group :development do
